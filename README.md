@@ -35,12 +35,12 @@ In directory with source files, type iqpirQuant.php to see list of all command o
 Output files are written for each sample specified in the sample_map and all pairwise channels specified in the sample_ratios files
 
 Foreach sample N:
-sample.N.iqpir.txt: Calculated apportionments (relative concentrations) of quantified ions among the channels and their corresponding envelope intensity differences
-sample.N.numids.txt: Number of identifications of cross-links in each channel				
-sample.N.apports.txt: Calculated cross-link apportionments (mean, stdev, num contributing ions, outliers)
-sample.N.respairs.txt: Cross-link data aggregated at the protein residue pair level 
-sample.N.reshubs.txt: Cross-link data sorted by cross-linked protein residues
-sample.N.protpairs.txt: Cross-link data aggregated at the cross-linked protein pair level
+	sample.N.iqpir.txt: Calculated apportionments (relative concentrations) of quantified ions among the channels and their corresponding envelope intensity differences
+	sample.N.numids.txt: Number of identifications of cross-links in each channel				
+	sample.N.apports.txt: Calculated cross-link apportionments (mean, stdev, num contributing ions, outliers)
+	sample.N.respairs.txt: Cross-link data aggregated at the protein residue pair level 
+	sample.N.reshubs.txt: Cross-link data sorted by cross-linked protein residues
+	sample.N.protpairs.txt: Cross-link data aggregated at the cross-linked protein pair level
 
 For each pairwise numerator (num) and denominator (denom) channels of sample N:
 sample.N.num-denom.chroms.txt		  Calculated log2ratio of quantified ions among the channels and their signal to noise and
