@@ -50,9 +50,9 @@ Foreach sample N:
 	
 
 For each pairwise numerator (num) and denominator (denom) channels of sample N:
-sample.N.num-denom.chroms.txt		  Calculated log2ratio of quantified ions among the channels and their signal to noise and
-									                corresponding envelope intensity differences
-sample.N.num-denom.ratios.txt		  Cross-link log2ratios (mean, stdev, num contributing ions, outliers, p-values)
-sample.N.num-denom.respairs.txt	  Cross-link data aggregated at the protein residue pair level
-sample.N.num-denom.reshubs.txt	  Cross-link data sorted by cross-linked protein residues
-sample.N.num-denom.protpairs.txt  Cross-link data aggregated at the cross-linked protein pair level
+
+	sample.N.num-denom.chroms.txt: Calculated log2ratio of quantified ions among the channels and their signal to noise and corresponding envelope intensity differences
+	sample.N.num-denom.ratios.txt: Cross-link log2ratios (mean, stdev, num contributing ions, outliers, p-values)
+	sample.N.num-denom.respairs.txt: Cross-link data aggregated at the protein residue pair level
+	sample.N.num-denom.reshubs.txt: Cross-link data sorted by cross-linked protein residues
+	sample.N.num-denom.protpairs.txt: Cross-link data aggregated at the cross-linked protein pair level
