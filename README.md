@@ -1,6 +1,6 @@
 # iqpirquant
 
-Quantitation of cross-links and deadend peptides based on multiplexed iqPIR cross-linkers
+Quantitation of cross-links and deadend peptides based on 2-plex or multiplexed iqPIR cross-linkers
 
 
 Place the following files in a common directory on Linux for running iqpirQuant.php:
